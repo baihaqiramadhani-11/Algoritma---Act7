@@ -30,6 +30,6 @@ public:
         newNode->data = value;
         newNode->next = top;
         top = newNode;
-        cout
+        cout << "Push value: " << value << endl;
     }
 }
